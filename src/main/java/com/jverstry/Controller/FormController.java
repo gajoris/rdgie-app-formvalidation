@@ -25,7 +25,7 @@ public class FormController {
 		if(result.hasErrors()) {
 			return "formPage";
 		}
-		
+		// this is for formPage changes 
 		m.addAttribute("message", "Successfully saved person: " + subscriber.toString());
 		return "formPage";
 	}
